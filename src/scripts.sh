@@ -1,0 +1,11 @@
+# MovieLens
+python main.py -d movielens -luser 0.2 -lrec 0.4 -lmse 1.5 -temp 0.6  --warmup 160
+
+# KuaiRec
+python main.py -d kuairec -luser 0.1  -max_hl 5 --warmup 3
+
+# Yelp
+python main.py -d yelp -luser 0.05 -lrec 0.8 -lmse 1.2 -temp 1.4 -ng 128 -max_hl 5 --warmup 270
+
+# Books
+python main.py -d books -luser 0.1 -lambda_rec_loss 0.4 -lmse 1.5  --warmup 50 -tau 32
